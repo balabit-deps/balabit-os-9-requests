@@ -1,3 +1,13 @@
+requests (2.25.1+dfsg-2ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Unintended leak of Proxy-Authorization header
+    - debian/patches/CVE-2023-32681.patch: don't attach header to redirects
+      with an HTTPS destination in requests/sessions.py,
+      tests/test_requests.py.
+    - CVE-2023-32681
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 05 Jun 2023 13:12:33 -0400
+
 requests (2.25.1+dfsg-2) unstable; urgency=medium
 
   * debian/control

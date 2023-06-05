@@ -1,5 +1,6 @@
 Source: requests
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Daniele Tricoli <eriol@debian.org>
 Section: python
 Priority: optional
