@@ -1,3 +1,12 @@
+requests (2.25.1+dfsg-2ubuntu0.3) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Information Leak
+    - debian/patches/CVE-2024-47081.patch: Only use hostname to do netrc
+      lookup instead of netloc
+    - CVE-2024-47081
+
+ -- Bruce Cable <bruce.cable@canonical.com>  Wed, 11 Jun 2025 13:27:31 +1000
+
 requests (2.25.1+dfsg-2ubuntu0.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: Unintended leak of Proxy-Authorization header
