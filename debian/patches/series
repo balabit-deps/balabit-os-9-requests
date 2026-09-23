@@ -2,3 +2,4 @@
 0002-Temporary-exclude-requests.codes.patch
 CVE-2023-32681.patch
 CVE-2024-47081.patch
+CVE-2026-25645.patch

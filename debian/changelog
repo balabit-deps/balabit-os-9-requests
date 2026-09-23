@@ -1,3 +1,12 @@
+requests (2.25.1+dfsg-2ubuntu0.4) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Insecure Temporary File
+    - debian/patches/CVE-2026-25645.patch: Extract to non-deterministic
+      location
+    - CVE-2026-25645
+
+ -- Bruce Cable <bruce.cable@canonical.com>  Wed, 23 Sep 2026 13:13:18 +1000
+
 requests (2.25.1+dfsg-2ubuntu0.3) jammy-security; urgency=medium
 
   * SECURITY UPDATE: Information Leak
